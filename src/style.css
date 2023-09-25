@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
+
+#grid tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+#grid tr:nth-child(even) {
+  background-color: #cccccc;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.zoom-buttons {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.zoom-buttons button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+ padding: 5px 05px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+.zoom-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.list-item:hover {
+  text-decoration: underline;
+  color: #3498db;
+}
+.list-item {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.list-item:hover {
+  text-decoration: underline;
+  color: #3498db;
+}
