@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url('bg.jpg');
+  background-image: url('./bg.jpg');
   background-size: cover;
 }
 
